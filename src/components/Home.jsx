@@ -21,7 +21,7 @@ const Home = () => {
           The man who does not read good books is no better than the man who
           can’t.
         </p>
-        <div className="inline-flex flex-col lg:flex-row items-center  ">
+        <div className="inline-flex flex-col  lg:flex-row items-center  ">
           <Link to="/books">
             <div className="text-white font-semibold inline-flex items-center mt-5 px-6  btn bg-blue-400 hover:bg-blue-700 transition duration-200">
               <p>Vist store</p>
