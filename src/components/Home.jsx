@@ -4,7 +4,7 @@ import reader from "../assets/reader.json";
 
 const Home = () => {
   return (
-    <div className=" mx-auto px-4  py-16 sm:max-w-full md:max-w-full lg:max-w-screen-xl lg:py-20 flex lg:flex-row sm:flex-col items-center justify-between">
+    <div className=" my-container flex flex-col lg:flex-row sm:flex-col items-center justify-between">
       <div>
         <h2 className="text-3xl font-bold max-w-xl mb-6 text-gray-900">
           A reader lives a <br /> thousand lives
@@ -20,7 +20,12 @@ const Home = () => {
           <button>View Store</button>
         </div>
       </div>
-     
+      {/* lottie-animation */}
+      <div className="lg:relative lg:w-1/2">
+       <div className="w-full lg:w-4/5 lg:ml-auto h-48  sm:h-64">
+       <Lottie animationData={reader} loop={true} />;
+       </div>
+      </div>
     </div>
   );
 };
