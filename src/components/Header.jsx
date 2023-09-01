@@ -20,7 +20,7 @@ const Header = () => {
           </span>
         </Link>
 
-        <ul className="lg:flex md:hidden items-center space-x-8 font-semibold">
+        <ul className="lg:flex md:hidden hidden items-center space-x-8 font-semibold">
           <li>
             <NavLink
               to={"/"}

@@ -10,6 +10,7 @@ const Home = () => {
   return (
     <div className=" my-container flex flex-col lg:flex-row sm:flex-col items-center justify-between">
       <div>
+      <p className='bg-yellow-400 font-semibold uppercase mb-4 w-20 rounded-full pl-2'>On Sale!</p>
         <h2 className="text-3xl font-bold max-w-xl mb-6 text-gray-900">
           A reader lives a <br /> thousand lives
           <span className="text-blue-600"> before he dies</span>
@@ -20,13 +21,11 @@ const Home = () => {
           The man who does not read good books is no better than the man who
           can’t.
         </p>
-        <div className="inline-flex flex-col lg:flex-row items-center l ">
+        <div className="inline-flex flex-col lg:flex-row items-center  ">
           <Link to="/books">
             <div className="text-white font-semibold inline-flex items-center mt-5 px-6  btn bg-blue-400 hover:bg-blue-700 transition duration-200">
               <p>Vist store</p>
-              
                 <ShoppingCartIcon className="text-white-600 h-6 w-6"/>
-            
             </div>
           </Link>
           <Link to="/about">
