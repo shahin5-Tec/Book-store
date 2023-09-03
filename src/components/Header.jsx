@@ -9,7 +9,7 @@ import {
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="  bg-gray-100  px-4 py-5 md:max-w-full  container mx-auto lg:px-8 lg:max-w-screen-xl">
+    <div className=" mx-28 px-4  py-5  bg-gray-100  md:max-w-full lg:px-8 lg:max-w-screen-xl">
       <div className="flex relative items-center  justify-between">
         {/* logo-part */}
 
