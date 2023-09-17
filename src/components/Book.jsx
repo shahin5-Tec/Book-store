@@ -1,7 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigation } from "react-router-dom";
+import LoadingPage from "./LoadingPage";
 
 const Book = ({ book }) => {
+
+  
   return (
     <Link to={`/book/${book.isbn13}`}>
       <div className="my-container lg:py-8">
